@@ -34,11 +34,13 @@ public class First {
 	        return l;
 	    }
 	    public static void main(String[] args) {
-	    	int [] nums = {1,2,3,4};
+	    	int [] nums = {1,2,3,6};
 	    	int target = 5;
 	    	First obj = new First();
 	    	int [] sum = obj.twoSum1(nums,target);
-	    System.out.println(sum[0]);
-	    	obj.twoSum(nums, target);
+	    System.out.println(sum[0]+","+sum[1]);
+	    int [] sum1 = obj.twoSum(nums, target);
+	    System.out.println(sum1[0]+","+sum1[1]);
+	    
 	    }
 }
