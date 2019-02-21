@@ -34,8 +34,8 @@ public class First {
 	        return l;
 	    }
 	    public static void main(String[] args) {
-	    	int [] nums = {1,2,3,6};
-	    	int target = 5;
+	    	int [] nums = {1,2,3,6,8,9};
+	    	int target = 9;
 	    	First obj = new First();
 	    	int [] sum = obj.twoSum1(nums,target);
 	    System.out.println(sum[0]+","+sum[1]);
