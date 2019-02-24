@@ -24,4 +24,8 @@ public class Palindrome {
         return sum;
         
     }
+	public static void main(String args[]){
+		Palindrome pl = new Palindrome();
+		pl.isPalindrome(1234);
+	}
 }
